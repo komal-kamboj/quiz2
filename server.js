@@ -8,7 +8,7 @@ const port =7000
 app.use(cors())
 app.use(express.json())
 
-const uri ="mongodb+srv://kambojk1:Douglas@95@cluster0.ly35h4k.mongodb.net/test"
+const uri ="mongodb+srv://kambojk1:Douglas@95@cluster0.ly35h4k.mongodb.net/Exam"
 
 mongoose.connect(uri,{
     useNewUrlParser:true,
